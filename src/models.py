@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-from config import L
+from config.config import L
 
 class rhonet(nn.Module):  # filters=32, kernel=15
     def __init__(self, input_dim=L, n_conv_filters=32, n_interm_channel=3, kernel_size=15, hidden_dim=256, output_dim=1, parm_limit=0.25, act_parm=0.02,):

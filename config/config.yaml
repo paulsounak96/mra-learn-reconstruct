@@ -1,0 +1,5 @@
+L: 50
+s: 5
+noise_sdmult: 0
+num_samps: 10000
+enable_cuda: true
