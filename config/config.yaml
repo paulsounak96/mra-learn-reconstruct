@@ -3,3 +3,7 @@ s: 5
 noise_sdmult: 0
 num_samps: 10000
 enable_cuda: true
+max_epoch: 20
+batch_size: 64
+show_iter: 100
+lr: 1e-4
